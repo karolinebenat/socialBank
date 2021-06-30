@@ -1,0 +1,1258 @@
+*{
+box-sizing: border-box;
+font-family: Montserrat, sans-serif;
+}
+
+body{
+margin: 0px;
+height: 100vh;
+}
+
+.menu{
+position: absolute;
+width: 160px;
+height: 0px;
+left: 0px;
+top: 0px;
+
+background: #0f0606;
+}
+
+.submenu{
+width: 50%;
+background-color: teal;
+}
+
+.logo{
+    position: absolute;
+    width: 160px;
+    height: 42px;
+    left: 48px;
+    top: 16px
+}
+
+.imagem{
+position: absolute;
+height: 800px;
+left: -1250px;
+top: 0px;
+}
+
+.info{
+width: 100%;
+height: 800px;
+
+top: 74px;
+
+background: #FFFFFF;
+}
+
+
+.info1{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 40px;
+left: 500px;
+
+letter-spacing: -1px;
+
+color: #403F41;
+}
+
+.info2{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+left: 100px;
+
+color: #403F41;
+}
+
+.formulario{
+position: absolute;
+width: 35%;
+height: 80px;
+left: 900px;
+top: 74px;
+
+font-family: Montserrat;
+
+background: #FFFFFF;
+}
+
+.informacao{
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+
+color: #403F41;
+}
+
+.formularioBox{
+    position: relative;
+    left: 30px;
+}
+
+.formularioUser{
+font-weight: 400px;
+
+padding: 10px;
+width: 416px;
+left: 0px;
+font-size: 15px;
+display: block;
+border: none;
+border-bottom: 1px solid #4F4E50;
+border-radius: none;
+box-shadow: none;
+position: relative;
+display: block;
+line-height: 1.5;
+}
+
+.proposta{
+display: block;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 16px;
+    
+position: absolute;
+width: 416px;
+height: 48px;
+top: 730px;
+
+left: 30px;
+    
+background: #00B7D2;
+border-radius: 50px;
+    
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 16px;
+    
+color: #FFFFFF;
+}
+
+u{
+color:#00B7D2;
+}
+
+.banking{
+position: absolute;
+width: 100%;
+height: 626px;
+left: auto;
+top: 874px;
+    
+background: #F5F5F5;
+}
+
+.textdeposito{
+position: absolute;
+width: 520px;
+height: 40px;
+left: calc(50% - 520px/2);
+top: 100px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 40px;
+
+text-align: center;
+letter-spacing: -1px;
+
+color: #403F41;
+}
+
+.deposito{
+position: absolute;
+width: 300px;
+height: 154px;
+left: calc(50% - 300px/2 - 522px);
+top: 260.25px;
+
+background: #FFFFFF;
+
+border: 1px solid #F5F5F5;
+box-sizing: border-box;
+
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+}
+
+.deposit{
+position: absolute;
+left: 10.83%;
+right: 9.06%;
+top: 14.17%;
+bottom: 14.17%;
+}
+
+.facil{
+position: absolute;
+left: 12.25%;
+right: 9.06%;
+top: 24.23%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+    
+letter-spacing: -0.48px;
+    
+color: #4F4E50;
+}
+
+.DOC{
+position: absolute;
+width: 252px;
+height: 20px;
+left: 12.25%;
+top: 94px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+
+color: #4F4E50;
+}
+
+.transferencia{
+position: absolute;
+width: 300px;
+height: 154px;
+left: calc(50% - 300px/2 - 174px);
+top: 260.25px;
+    
+background: #FFFFFF;
+    
+border: 1px solid #F5F5F5;
+box-sizing: border-box;
+    
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+}
+        
+.transf{
+position: absolute;
+left: 10.83%;
+right: 9.06%;
+top: 14.17%;
+bottom: 14.17%;
+}
+
+.transferencias{
+position: absolute;
+left: 12.25%;
+right: 9.06%;
+top: 24.23%;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+
+letter-spacing: -0.48px;
+
+color: #4F4E50;
+}
+
+.rapidas{
+position: absolute;
+width: 252px;
+height: 20px;
+left: 12.25%;
+top: 94px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+
+color: #4F4E50;
+}
+
+.saques{
+position: absolute;
+width: 300px;
+height: 154px;
+left: calc(50% - 300px/2 + 174px);
+top: 260.25px;
+    
+background: #FFFFFF;
+    
+border: 1px solid #F5F5F5;
+box-sizing: border-box;
+  
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+border-radius: 8px;
+}
+
+.cash{
+position: absolute;
+left: 10.83%;
+right: 10.83%;
+top: 10.83%;
+bottom: 10.83%;
+}
+
+.saque{
+position: absolute;
+left: 12.25%;
+right: 9.06%;
+top: 24.23%;
+    
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+    
+letter-spacing: -0.48px;
+ 
+color: #4F4E50;
+}
+
+.maisde{
+position: absolute;
+width: 252px;
+height: 20px;
+left: 12.25%;
+top: 94px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+
+
+color: #4F4E50;
+}
+
+.pagamentos{
+position: absolute;
+width: 300px;
+height: 154px;
+left: calc(50% - 300px/2 + 522px);
+top: 260.25px;
+
+background: #FFFFFF;
+
+border: 1px solid #F5F5F5;
+box-sizing: border-box;
+
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+border-radius: 8px;;
+}
+
+.payment{
+position: absolute;
+left: 10.83%;
+right: 10.83%;
+top: 10.83%;
+bottom: 10.83%;
+}
+
+.pagamento{
+position: absolute;
+left: 12.25%;
+right: 9.06%;
+top: 24.23%;
+    
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 32px;
+    
+letter-spacing: -0.48px;
+    
+color: #4F4E50;
+}
+
+.pague{
+position: absolute;
+width: 252px;
+height: 20px;
+left: 12.25%;
+top: 94px;
+    
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+
+color: #4F4E50;
+}
+
+.sol{
+display: block;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 416px;
+height: 48px;
+left: calc(50% - 416px/2);
+top: 450px;
+
+background: #00B7D2;
+border-radius: 50px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 16px;
+    
+color: #FFFFFF;
+}
+
+.contadigital{
+width: 100%;
+left: 50% - 1440px/2;
+}
+
+.colaboradores{
+position: absolute;
+width: 653px;
+height: 80px;
+left: calc(50% - 653px/2 + 2.5px);
+top: 1628px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 40px;
+
+text-align: center;
+letter-spacing: -1px;
+
+color: #403F41;
+}
+
+.celular{
+position: absolute;
+width: 764px;
+height: 604px;
+left: calc(50% - 764px/2 - 174px);
+top: 1772px;
+}
+
+.depo{
+position: absolute;
+left: 66%;
+right: 418.46%;
+top: 1904px;
+bottom: 3.39%;
+}
+
+.info4{
+position: absolute;
+width: 244px;
+height: 22px;
+left: calc(50% - 244px/2 + 434px);
+top: 1893px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+
+color: #4F4E50;
+}
+
+.info5{
+position: absolute;
+width: 244px;
+height: 20px;
+left: calc(50% - 244px/2 + 434px);
+top: 1915px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+
+color: #4F4E50;
+}
+
+.transfer{
+position: absolute;
+left: 66%;
+right: 418.46%;
+top: 1988px;
+bottom: 3.39%;
+}
+
+.info6{
+position: absolute;
+width: 244px;
+height: 22px;
+left: calc(50% - 244px/2 + 434px);
+top: 1973px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+
+color: #4F4E50;
+}
+
+.info7{
+position: absolute;
+width: 244px;
+height: 20px;
+left: calc(50% - 244px/2 + 434px);
+top: 1995px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+
+color: #4F4E50;
+}
+
+.cachs{
+    position: absolute;
+    left: 66%;
+    right: 418.46%;
+    top: 2060px;
+    bottom: 3.39%;
+}
+
+.info8{
+position: absolute;
+width: 244px;
+height: 22px;
+left: calc(50% - 244px/2 + 434px);
+top: 2052px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+
+color: #4F4E50;
+}
+
+.info9{
+position: absolute;
+width: 244px;
+height: 20px;
+left: calc(50% - 244px/2 + 434px);
+top: 2074px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+
+color: #4F4E50;
+}
+
+.pay{
+position: absolute;
+left: 66%;
+right: 418.46%;
+top: 2147px;
+bottom: 3.39%;
+}
+
+.info10{
+position: absolute;
+width: 244px;
+height: 22px;
+left: calc(50% - 244px/2 + 434px);
+top: 2133px;
+    
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+    
+color: #4F4E50; 
+}
+
+.info11{
+position: absolute;
+width: 244px;
+height: 20px;
+left: calc(50% - 244px/2 + 434px);
+top: 2155px;
+    
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+    
+color: #4F4E50;  
+}
+
+.aplicativo{
+display: block;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 16px;
+
+position: absolute;
+width: 300px;
+height: 48px;
+left: calc(50% - 300px/2 + 406px);
+top: 2210px;
+
+background: #00B7D2;
+border-radius: 50px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 16px;
+    
+color: #FFFFFF;
+}
+
+.trajetoria{
+position: absolute;
+width: 49.4%;
+height: 800px;
+left:50.6%;
+top: 0px;
+}
+
+.empresas{
+position: absolute;
+width: 416px;
+height: 80px;
+left: 152px;
+top: 283px;
+    
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 40px;
+    
+letter-spacing: -1px;
+
+color: #FFFFFF;
+}
+    
+.microempreendedor{
+position: absolute;
+width: 416px;
+height: 80px;
+left: 152px;
+top: 379px;
+    
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 22px;
+   
+color: #FFFFFF;
+}
+    
+.plataform{
+display: block;
+flex-direction: row;
+justify-content: space-between;
+align-items: flex-start;
+padding: 16px;
+    
+position: absolute;
+width: 300px;
+height: 48px;
+left: 150px;
+top: 500px;
+    
+background: #00B7D2;
+border-radius: 50px;
+    
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 13px;
+line-height: 16px;
+        
+color: #FFFFFF;
+}
+
+.plataforma {
+position: absolute;
+width: 100%;
+height: 800px;
+left: 50% - 720px/2 - 360px;
+top: 2504px;
+ 
+background-color: #002C33;
+background: #002C33;
+}
+
+footer{
+position: absolute;
+width: 100%;
+height: 501px;
+left: 50% - 1440px/2;
+top: 3300px;
+bottom: 0;
+
+line-height: 100px;
+
+background: #00B7D2;
+}
+
+.social{
+position: absolute;
+width: 105px;
+height: 22px;
+left: 105px;
+top: 0px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+
+letter-spacing: -0.06px;
+
+
+color: #FFFFFF;
+
+opacity: 0.6;
+}
+
+.transparencia{
+position: absolute;
+width: 127px;
+height: 22px;
+left: 400px;
+top: 0px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+letter-spacing: -0.06px;
+
+color: #FFFFFF;
+
+opacity: 0.6;
+}
+
+.faleconosco{
+position: absolute;
+width: 119px;
+height: 22px;
+left: 900px;
+top: 0px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+letter-spacing: -0.06px;
+
+color: #FFFFFF;
+
+opacity: 0.6;
+}
+
+.infoempresa{
+position: absolute;
+left: 7%;
+right: 25.97%;
+top: 50%;
+bottom: 36.13%;
+
+}
+
+.endereco{
+position: absolute;
+width: 440px;
+left: 200px;
+top: 260px;
+
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 20px;
+
+/* Secondary/White */
+
+color: #FFFFFF;
+}
+
+.continue{
+position: absolute;
+width: 300px;
+left: 930px;
+top: 250px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 22px;
+
+letter-spacing: -0.06px;
+
+
+color: #080808;
+
+opacity: 0.6;
+}
+
+.insta{
+position: absolute;
+left: 62%;
+right: 22.43%;
+top: 60%;
+bottom: 23.3%;
+
+}
+
+.linkedin{
+position: absolute;
+left: 65%;
+right: 22.43%;
+top: 60%;
+bottom: 20.43%;
+}
+
+.facebook{
+position: absolute;
+left: 68%;
+right: 22.43%;
+top: 60%;
+bottom: 26.14%;
+
+}
+
+.blog{
+position: absolute;
+left: 71%;
+right: 22.43%;
+top: 60%;
+bottom: 29.42%;
+
+}
+
+.youtube{
+position: absolute;
+left: 74%;
+right: 22.43%;;
+top: 60%;
+bottom: 0%;
+}
+
+.twitter{
+position: absolute;
+left: 77%;
+right: 22.43%;
+top: 60%;
+bottom: 0%;
+}
+
+.medium{
+position: absolute;
+left: 80%;
+right: 22.43%;
+top: 60%;
+bottom: 23.3%;
+}
+
+/*
+@media (max-width: 768px) {
+    body{
+    
+    }
+}
+*/
+
+@media (max-width:482px){
+    .imagem{
+        order: -1;
+    }
+    .info{
+        flex-direction: column;
+    }
+
+    .banking{
+        width: 1440px;
+    }
+}
+
+@media (min-width:375){
+    .imagem{
+        position: absolute;
+        width: 766px;
+        height: 500px;
+        left: -50px;
+        top: 74px;
+    }
+    .celular{
+        left:764px/2;
+    }
+    .depo{
+        position: absolute;
+        left: 33%;
+        right: 418.46%;
+        top: 2450px;
+        bottom: 3.39%;
+    }
+    .info4{
+        left: calc(5% - 244px/2 + 434px);
+        top: 2450px;
+    }
+    .info5{
+        left: calc(5% - 244px/2 + 434px);
+        top: 2470px;
+    }
+    .trajetoria{
+        flex-direction: column;
+    }
+    .banking {
+        position: absolute;
+        width: 100%;
+        height: 626px;
+        left: 1350px/2;
+        top: 874px;
+        background: #F5F5F5;
+        width: 1440px;
+        flex-direction: inherit;
+    }
+    .colaboradores {
+        position: absolute;
+        width: 653px;
+        height: 80px;
+        left: 150px;
+        top: 1628px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+        letter-spacing: -1px;
+        color: #403F41;
+    }
+    .celular {
+        width: 100%;
+        width: 90px;
+        position: absolute;
+        width: 764px;
+        height: 604px;
+        top: 1772px;
+
+        left: 150px;
+    }
+    .depo {
+        position: absolute;
+        left: 130%;
+        right: 418.46%;
+        top: 2400px;
+        bottom: 3.39%;
+    }
+    .info4 {
+        position: absolute;
+        width: 244px;
+        height: 22px;
+        left: 150%;
+        top: 2400px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #4F4E50;
+    }
+    .info5 {
+        position: absolute;
+        width: 244px;
+        height: 20px;
+        left: 150%;
+        top: 1915px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #4F4E50;
+        top: 2420px;
+    }
+    .transfer {
+        position: absolute;
+        left: 130%;
+        right: 418.46%;
+        top: 2475px;
+        bottom: 3.39%;
+    }
+    .info6 {
+        position: absolute;
+        width: 244px;
+        height: 22px;
+        left: calc(50% - 244px/2 + 434px);
+        top: 2475px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #4F4E50;
+        left: 150%;
+    }
+    .info7 {
+        left: 30%;
+        position: absolute;
+        width: 244px;
+        height: 20px;
+        left: 150%;
+        top: 1995px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #4F4E50;
+        top: 2495px;
+    }
+    .cachs {
+        position: absolute;
+        left: 130%;
+        right: 418.46%;
+        top: 2535px;
+        bottom: 3.39%;
+    }
+    .info8 {
+        position: absolute;
+        width: 244px;
+        height: 22px;
+        left: 150%;
+        top: 2535px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #4F4E50;
+    }
+    .info9 {
+        position: absolute;
+        width: 244px;
+        height: 20px;
+        left: 150%;
+        top: 2074px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #4F4E50;
+        top: 2555px;
+    }
+    .pay {
+        position: absolute;
+        left: 130%;
+        right: 418.46%;
+        top: 2605px;
+        bottom: 3.39%;
+    }
+    .info10 {
+        position: absolute;
+        width: 244px;
+        height: 22px;
+        left: 150%;
+        top: 2605px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #4F4E50;
+    }
+    .info11 {
+        position: absolute;
+        width: 244px;
+        height: 20px;
+        left: 150%;
+        top: 2155px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #4F4E50;
+        top: 2625px;
+    }
+    .aplicativo {
+        display: block;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 16px;
+        position: absolute;
+        width: 300px;
+        height: 48px;
+        left: 130%;
+        top: 2685px;
+        background: #00B7D2;
+        border-radius: 50px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+    .plataforma {
+        position: absolute;
+        width: 1440px;
+        height: 400px;
+        top: 2800px;
+        background-color: #002C33;
+        background: #002C33;
+        line-height: 570px;
+    }
+    .empresas {
+        position: absolute;
+        width: 500px;
+        height: 80px;
+        left: 250px;
+        top: px;
+        text-align: center;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 40px;
+        letter-spacing: -1px;
+        color: #FFFFFF;
+    }
+    .microempreendedor {
+        position: absolute;
+        width: 416px;
+        height: 80px;
+        left: 250px;
+        top: 100px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        color: #FFFFFF;
+    }
+    .plataform {
+        display: block;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 16px;
+        position: absolute;
+        width: 300px;
+        height: 48px;
+        left: 375px;
+        top: 250px;
+        background: #00B7D2;
+        border-radius: 50px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 13px;
+        line-height: 16px;
+        color: #FFFFFF;
+    }
+    .trajetoria {
+        position: absolute;
+        width: 100%;
+        left: -150px;
+        top: 400px;
+        flex-direction: column;
+        flex-direction: row-reverse;
+    }
+    footer {
+        position: absolute;
+        width: 1100px;
+        height: 501px;
+        left: 50% - 1440px/2;
+        top: 4700px;
+        bottom: 0;
+        line-height: 100px;
+        background: #00B7D2;
+    }
+    .continue {
+        position: absolute;
+        width: 300px;
+        left: 690px;
+        top: 250px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: -0.06px;
+        color: #080808;
+        opacity: 0.6;
+    }
+    .endereco {
+        position: absolute;
+        width: 440px;
+        left: 200px;
+        top: 260px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    .faleconosco {
+        position: absolute;
+        width: 119px;
+        height: 22px;
+        left: 700px;
+    }
+}
